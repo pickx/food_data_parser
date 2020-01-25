@@ -13,3 +13,4 @@ serde_json = { version = "1.0.44", features = ["preserve_order"] }
 serde = { version = "1.0.104", features = ["derive"] }
 dotenv = "0.15.0"
 lazy_static = "1.4.0"
+anyhow = "1.0.26"

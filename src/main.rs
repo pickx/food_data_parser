@@ -1,11 +1,11 @@
 mod parser;
+mod request_sender;
+
+use anyhow::Result;
 
 #[macro_use]
 extern crate lazy_static;
 
-use serde::{Serialize, Deserialize};
-use serde_json::Value;
-use serde_json::json;
 use dotenv;
 
 
@@ -25,6 +25,9 @@ lazy_static! {
 
 #[tokio::main]
 async fn main() -> Result<(), reqwest::Error> {
+
+//    let
+
 
 
 //    let url = format!("https://api.nal.usda.gov/fdc/v1/search?api_key={}", *API_KEY);
